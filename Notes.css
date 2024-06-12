@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first {
+    top: 0;
+    height: 370em;
+
+    width: 100%;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    background-color: var(--primary-color );
+
+
+}
+
+
+
+
+.nav-ul {
+    list-style-type: none;
+    margin: 20px 20px;
+    overflow: hidden;
+    height: 110px;
+
+    box-shadow: 9px 10px 10px 11px rgb(156, 152, 152);
+    border-radius: 20px;
+}
+
+.nav-li {
+    float: right;
+
+}
+
+.logo {
+    float: left;
+}
+
+.nav-li, .nav-a {
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    
+    text-align: center;
+    padding: 14px 16px;
+    color: var(--secondary-color);
+   
+}
+
+
+
+
+#icon{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+/* 
+.first {
+    height: 45em;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    --tw-bg-opacity: 2;
+    background-color: rgb(30 41 59/var(--tw-bg-opacity));
+    position: fixed;
+} */
+
+
+
+
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #212121;
+
+
+
+}
+
+.dark-theme {
+    --tw-bg-opacity: 2;
+    --primary-color:rgb(30 41 59/var(--tw-bg-opacity));
+    --secondary-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------notes---------------------------------------- */
+
+ .h {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    box-shadow: 5px 5px 15px black;
+    border-radius: 20px;
+    height: 350px;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 100px;
+    transition: 1s;
+    z-index: 1;
+    font-size: 20px;
+    background: linear-gradient(to top right, #0d3c92 0%, #ff99cc 100%);
+   
+    
+}
+
+
+
+
+.h:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    box-shadow: 5px 5px 15px black;
+    border-radius: 20px;
+    height: 350px;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 100px;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+.button {
+    height: 25px;
+    width: 140px;
+    border-radius: 20px;
+    margin-left: 50px;
+    transition: 1s;
+    margin-top: 7px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.button:hover {
+    height: 25px;
+    width: 140px;
+    border-radius: 20px;
+    margin-left: 50px;
+    background: linear-gradient(to top right, #6e82a7 100%, #dd86b1 0%);
+    margin-top: 7px;
+    transition: 1s;
+
+}
+
+
+
+/*------------------------------------Html--Notes-------------------------------------------------------*/
+
+.o1 {
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+
+.o2 {
+    height: 200px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.text1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.text2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.text3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.o3 {
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
